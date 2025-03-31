@@ -2,6 +2,9 @@
 
 一个简洁、响应式的房贷计算器 Web 应用，基于 React、TypeScript 和 Semi Design UI 构建，帮助您快速计算和比较不同的房贷方案。
 
+<img width="1800" alt="image" src="https://github.com/user-attachments/assets/d68439d2-e27b-4c64-a194-c6ce8519ddc3" />
+
+
 ## 功能特点
 
 - 根据房屋总价、首付金额、贷款利率和贷款期限计算月供
