@@ -67,10 +67,19 @@ pnpm build
 
 ```
 # .env 文件示例
-VITE_DEFAULT_TOTAL_PRICE=1410528     # 默认房屋总价
-VITE_DEFAULT_DOWN_PAYMENT=600000     # 默认首付金额
-VITE_DEFAULT_INTEREST_RATE=3.15      # 默认贷款利率(%)
-VITE_DEFAULT_LOAN_TERM=360           # 默认贷款期限(月)
+
+# 默认房屋总价
+VITE_DEFAULT_TOTAL_PRICE=1000000
+
+# 默认首付金额(60万)
+VITE_DEFAULT_DOWN_PAYMENT=400000
+
+# 默认贷款利率(%)
+VITE_DEFAULT_INTEREST_RATE=3.15
+
+# 默认贷款期限(月) - 30年
+VITE_DEFAULT_LOAN_TERM=360
+
 ```
 
 要使用这些配置，请在项目根目录创建 `.env` 文件，或者复制 `.env.example` 并根据需要修改值。
